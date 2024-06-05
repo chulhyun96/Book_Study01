@@ -1,4 +1,4 @@
-package 박철현.cafe;
+package 박철현.chapter1.cafe;
 
 public class CafeMain {
     public static void main(String[] args) {

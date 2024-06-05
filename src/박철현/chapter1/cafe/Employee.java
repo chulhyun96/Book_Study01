@@ -1,4 +1,4 @@
-package 박철현.cafe;
+package 박철현.chapter1.cafe;
 
 public abstract class Employee {
     public void doWorking() {

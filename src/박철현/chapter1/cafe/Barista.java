@@ -1,4 +1,4 @@
-package 박철현.cafe;
+package 박철현.chapter1.cafe;
 
 import java.util.Optional;
 
