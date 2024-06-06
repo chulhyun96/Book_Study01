@@ -1,4 +1,4 @@
-package 박철현.chapter2;
+package 박철현.chapter2.alice;
 
 public class Alice {
     private int height;
