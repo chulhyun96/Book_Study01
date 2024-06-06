@@ -1,5 +1,7 @@
 package 박철현.chapter1.cafe;
 
+
+
 public class NewPartTimer implements Cashier{
 
     @Override
