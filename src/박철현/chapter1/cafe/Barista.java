@@ -4,4 +4,5 @@ import java.util.Optional;
 
 public interface Barista {
     Optional<String> makeCoffee(String requiredMenu);
+    String refuse();
 }

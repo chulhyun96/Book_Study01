@@ -12,4 +12,7 @@ public class NewPartTimer2 implements Barista {
                 .filter(menu -> menu.contains(requiredMenu))
                 .findFirst();
     }
+    public String refuse() {
+        return "못만들어요 힝 ㅠㅠ";
+    }
 }
