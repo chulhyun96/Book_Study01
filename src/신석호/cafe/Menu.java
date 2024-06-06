@@ -1,9 +1,5 @@
 package 신석호.cafe;
 
-import java.util.ArrayList;
-import java.util.List;
-
-// 메뉴 항목을 나타내는 클래스
 public class Menu {
     private String name;
     private double price;
