@@ -1,4 +1,4 @@
-package 신석호.cafe;
+package 신석호.chapter1.cafe;
 
 public class BeginnerBarista extends Barista {
     public BeginnerBarista(String name) {
