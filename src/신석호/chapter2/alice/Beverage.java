@@ -7,8 +7,4 @@ public class Beverage {
         this.quantity -= quantity;
         System.out.println("음료의 양은" + " " + this.quantity + " "+ "만큼 남았습니다.");
     }
-
-    public void passDoor() {
-
-    }
 }

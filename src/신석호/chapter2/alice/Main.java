@@ -4,10 +4,10 @@ public class Main {
     public static void main(String[] args) {
         Alice alice = new Alice(140, "복도");
 
-        alice.drinkBeverage();
+        Door door = new Door();
+        Beverage beverage = new Beverage();
 
-        alice.passDoor(140);
-
-
+        alice.drinkBeverage(beverage);
+        alice.passDoor(door);
     }
 }
