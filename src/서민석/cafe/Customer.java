@@ -19,10 +19,14 @@ public class Customer {
         return name;
 //        Barista.makeCoffee(name);
     }
-    public void pay(int MenuPrice){
-        this.money-= MenuPrice;
+    public int pay(){
+        return this.getMoney();
     }
 
+    public void takeExchange(int exchange){
+    this.money=exchange;
+        System.out.println("잔액:"+this.money);
+    }
     public int getMoney() {
         return money;
     }
