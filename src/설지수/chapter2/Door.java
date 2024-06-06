@@ -10,4 +10,11 @@ public class Door {
     public int getHeight() {
         return height;
     }
+
+    public String validateHeight(int height) {
+        if (height <= this.height ){
+            return "통과";
+        }
+        return "통과할 수 없습니다.";
+    }
 }

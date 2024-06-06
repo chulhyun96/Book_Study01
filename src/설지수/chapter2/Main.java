@@ -14,7 +14,7 @@ public class Main {
         alice.grabBeverage(beverage);
 
         // 키를 줄이기 위해 음료를 마심
-        alice.drinkBeverage(30);
+        alice.drinkBeverage(20);
         // 문을 통과하는 메서드
         alice.passDoor(door);
 
@@ -22,6 +22,7 @@ public class Main {
         System.out.println("alice.getHeight() = " + alice.getHeight());
         System.out.println("beverage.getQuantity() = " + beverage.getQuantity());
 
+        System.out.println("alice.getPlace() = " + alice.getPlace());
         // 위에 두 앨리스가 다른지 확인
         System.out.println("alice = " + alice);
         System.out.println("alice2 = " + alice2);

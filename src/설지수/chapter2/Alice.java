@@ -16,10 +16,10 @@ public class Alice {
         beverage.druken(quantity);
     }
     public void passDoor(Door door){
-        if (this.height > door.getHeight()){
-            System.out.println("문을 통과할 수 없습니다");
+        String result = door.validateHeight(this.height);
+        if (result.equals("통과")){
+            this.place = "garden";
         }
-        else this.place = "garden";
     }
 
     public void grabBeverage(Beverage beverage){
