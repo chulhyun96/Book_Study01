@@ -3,22 +3,27 @@ package 서민석.elice;
 public class Alice {
     public int height;
     public String place;
+
+    public Juice juice;
     public Alice(int height, String place) {
         this.height = height;
         this.place = place;
     }
 
-    public void takeJuice(){
+    public void takeJuice(Juice juice){
         System.out.println("앨리스:주스를 마셔볼까?");
-        Juice juice = new Juice();
+        this.juice = juice;
         System.out.println("현재 키:"+this.height);
     }
-    public void drink(Juice juice){
+    public void drink(){
         System.out.println("앨리스:주스를 마셔보자");
-        this.height -=juice.drink();
+        int quantity = 50;
+        this.height -=juice.drink(quantity);
         System.out.println("현재 키:"+this.height);
         System.out.println("현재 위치:"+this.place);
-        juice=null;
+        if(juice.quantity==0) {
+            juice = null;
+        }
     }
 
     public void passDoor(LittleDoor door){
