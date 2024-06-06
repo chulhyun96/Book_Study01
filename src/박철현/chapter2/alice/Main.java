@@ -1,6 +1,4 @@
-package 박철현.chapter2;
-
-import java.util.ArrayList;
+package 박철현.chapter2.alice;
 
 public class Main {
     public static void main(String[] args) {
