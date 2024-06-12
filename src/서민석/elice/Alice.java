@@ -46,4 +46,7 @@ public class Alice {
     public String getPlace() {
         return place;
     }
+    public void whereIam(){
+        System.out.println("난"+this.place+"에 있어");
+    }
 }

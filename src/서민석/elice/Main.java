@@ -11,8 +11,11 @@ public class Main {
     alice.passDoor(door);
 
     alice.drink();
+
     alice.passDoor(door);
 
     }
+
+
 
 }
