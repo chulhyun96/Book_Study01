@@ -1,4 +1,4 @@
-package 신석호.chapter3;
+package 신석호.chapter3.ex;
 
 public abstract class Car {
     public  void StartEngine(){
