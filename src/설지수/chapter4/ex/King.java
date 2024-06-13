@@ -3,7 +3,7 @@ package 설지수.chapter4.ex;
 
 public class King {
 
-    public void testifyBySomeone(Merchant merchant) {
+    public void requestTestimony(Merchant merchant) {
         System.out.println("증언해봐라");
         merchant.testify();
     }

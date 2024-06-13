@@ -17,7 +17,7 @@ public class TrialMain {
         Witness witness = king.callWitnessByRabbit(rabbit);
 
 //  - 이제 왕은 모자 장수에게 증언할 것을 요청한다.
-        king.testifyBySomeone(witness);
+        king.requestTestimony(witness);
 
     }
 }

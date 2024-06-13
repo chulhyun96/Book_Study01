@@ -6,7 +6,7 @@ public class King {
         return rabbit.callWitness();
     }
 
-    public void testifyBySomeone(Witness witness) {
+    public void requestTestimony(Witness witness) {
         System.out.println("증언해봐라");
         witness.testify();
     }
