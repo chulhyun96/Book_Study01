@@ -8,7 +8,7 @@ public abstract class Transportation {
     void goForward(){
         System.out.println("앞으로 운전");
     }
-    void goBackward(){
+    void goBackward() {
         System.out.println("후진");
     }
     void turnLeft(){
