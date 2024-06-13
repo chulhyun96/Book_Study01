@@ -1,7 +1,5 @@
 package 신석호.chapter4;
 
-import 설지수.chapter4.Witness;
-
 public class Main {
 
     public static void main(String[] args) {
