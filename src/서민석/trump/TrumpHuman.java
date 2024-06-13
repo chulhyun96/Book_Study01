@@ -12,6 +12,7 @@ public class TrumpHuman extends Trump{
         super.Lying();
     }
     public void say(){
+
         System.out.println("hi");
     }
 }

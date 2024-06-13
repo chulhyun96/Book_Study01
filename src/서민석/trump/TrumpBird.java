@@ -13,6 +13,7 @@ public class TrumpBird extends Trump{
     }
     
     public void flying(){
+
         System.out.println("펄럭펄럭");
     }
 }
