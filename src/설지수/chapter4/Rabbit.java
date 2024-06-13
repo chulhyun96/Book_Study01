@@ -8,7 +8,7 @@ public class Rabbit {
         return FactoryWitness.createWitness(witnessName);
     }
 
-    public void setWitness(String witnessName) {
+    public void setWitnessName(String witnessName) {
         this.witnessName = witnessName;
     }
 }
