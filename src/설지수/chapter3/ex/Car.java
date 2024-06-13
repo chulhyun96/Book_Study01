@@ -22,14 +22,13 @@ public class Car extends Transportation{
     }
 
     @Override
-    void turnRight() {
-        super.turnRight();
+    void turnRight() {super.turnRight();}
+
+    public Car() {
     }
 
     @Override
-    void stop() {
-        super.stop();
-    }
+    void stop() {super.stop();}
 
     @Override
     void turnOff() {
