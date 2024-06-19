@@ -1,6 +1,7 @@
 package 박철현.chapter4;
 
 public class Witness {
+
     public String tell() {
         return "내가 아는 모든 내용";
     }
