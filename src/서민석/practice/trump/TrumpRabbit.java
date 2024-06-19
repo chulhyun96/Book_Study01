@@ -1,4 +1,4 @@
-package 서민석.trump;
+package 서민석.practice.trump;
 
 public class TrumpRabbit extends Trump{
 
@@ -7,7 +7,7 @@ public class TrumpRabbit extends Trump{
         super.Lying();
     }
 
-    @Override
+     @Override
     public void Flipping() {
         super.Flipping();
     }

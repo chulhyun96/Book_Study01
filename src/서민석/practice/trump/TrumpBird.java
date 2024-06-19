@@ -1,4 +1,4 @@
-package 서민석.trump;
+package 서민석.practice.trump;
 
 public class TrumpBird extends Trump{
 
