@@ -7,6 +7,6 @@ public abstract class FactoryWitness {
         } else if (witnessName.equals("Cook")) {
             return new Cook();
         }
-        return new DefaultWitness("없음");
+        return new DefaultWitness();
     }
 }
