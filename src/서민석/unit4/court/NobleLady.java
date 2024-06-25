@@ -1,0 +1,12 @@
+package 서민석.unit4.court;
+
+public class NobleLady implements Witness{
+    @Override
+    public void entranceWitnessStand() {
+        System.out.println("귀족부인 입장");
+    }
+    @Override
+    public void tell() {
+        System.out.println("귀족부인:싫어요");
+    }
+}
